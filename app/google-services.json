@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432148209483",
+    "project_id": "soundspace-4b94c",
+    "storage_bucket": "soundspace-4b94c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432148209483:android:06154cf41af7853fd952ce",
+        "android_client_info": {
+          "package_name": "com.example.soundspace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR6v4lNaU_qJ6Xxe9IFjDl9G_iAmbDKPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

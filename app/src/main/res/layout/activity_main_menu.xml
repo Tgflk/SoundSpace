@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:background="@drawable/mainmenu">
+
+
+    <ImageView
+        android:id="@+id/logo_menu"
+        android:layout_width="205dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/girl_menu"
+        android:layout_width="321dp"
+        android:layout_height="341dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_menu"
+        app:srcCompat="@drawable/main1_girl" />
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="381dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_menu"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="Меню"
+        android:textColor="@color/black"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_menu"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/iv_menu"
+        app:layout_constraintTop_toTopOf="@+id/iv_menu" />
+
+    <ImageButton
+        android:id="@+id/btn_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="116dp"
+        android:background="#C0A7DD"
+        app:layout_constraintStart_toStartOf="@+id/iv_menu"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/calendar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_ras"
+        android:layout_width="104dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="Расписание"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/iv_menu"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calendar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

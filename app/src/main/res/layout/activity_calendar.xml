@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCalendar">
+
+    <ImageButton
+        android:id="@+id/btn_caltndar_home"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="198dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="Расписание"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_caltndar_home" />
+
+    <Button
+        android:id="@+id/btn_group1"
+        android:layout_width="110dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#C0A7DD"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="группа 1"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btn_group2"
+        android:layout_width="110dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="#C0A7DD"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="группа 2"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/tabl_cal"
+        android:layout_width="405dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/tablcal" />
+
+    <ImageView
+        android:id="@+id/boy_cal"
+        android:layout_width="341dp"
+        android:layout_height="407dp"
+        android:layout_marginTop="268dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_group2"
+        app:srcCompat="@drawable/main2_boy" />
+
+    <TextView
+        android:id="@+id/text_piano1"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="92dp"
+        android:text="пианино (каб. 30)"
+        android:textSize="9sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_piano2"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="пианино (каб. 30)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_piano3"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="пианино (каб. 30)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_piano4"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="пианино (каб. 30)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_piano5"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="пианино (каб. 30)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+    android:id="@+id/text_guitar1"
+    android:layout_width="60dp"
+    android:layout_height="28dp"
+    android:layout_marginStart="64dp"
+    android:layout_marginTop="220dp"
+    android:fontFamily="@font/ubuntu_medium"
+    android:gravity="center"
+    android:text="гитара     (каб. 11)"
+    android:textColor="@color/black"
+    android:textSize="9sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_guitar2"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="гитара     (каб. 11)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_guitar3"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="гитара     (каб. 11)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_guitar4"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="гитара     (каб. 11)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_guitar5"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="гитара     (каб. 11)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_vokal1"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="вокал       (каб. 23)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_vokal2"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="вокал       (каб. 23)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_vokal3"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="вокал       (каб. 23)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_vokal4"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="вокал       (каб. 23)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_vokal5"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="вокал       (каб. 23)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_skrip1"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="скрипка (каб. 45)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_skrip2"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="скрипка (каб. 45)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_skrip3"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="скрипка (каб. 45)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_skrip4"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="скрипка (каб. 45)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_skrip5"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="скрипка (каб. 45)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_solf1"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="сольфеджио (каб. 27)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_solf2"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="сольфеджио (каб. 27)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_solf3"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="сольфеджио (каб. 27)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_solf4"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="сольфеджио (каб. 27)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/text_solf5"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:gravity="center"
+        android:text="сольфеджио (каб. 27)"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabl_cal" />
+
+    <TextView
+        android:id="@+id/whatgroup1"
+        android:layout_width="158dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="88dp"
+        android:text="Группа №1"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
